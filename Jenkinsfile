@@ -9,7 +9,7 @@ pipeline {
         stage('Demo') {
             steps {
                 echo 'Hello, world'
-                sayHello 'Ramesh'
+                sayHello 'Sunil'
 
                 echo 'The value of foo is : ' + GlobalVars.foo
 
